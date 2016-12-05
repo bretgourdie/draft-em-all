@@ -93,10 +93,8 @@
               </table>
               <div class="row controls">
                 <form ng-submit="send()">
-                  <div class="span2">
+                  <div class="input-append span9">
                     <input id="nameBox" type="text" class="input-block-level" ng-model="name" ng-change="setName()" placeholder="Your Name">
-                  </div>
-                  <div class="input-append span7">
                     <input type="text" class="span6" ng-model="text" placeholder="Message">
                     <input type="submit" class="span1 btn btn-primary" value="Send" ng-disabled="!text">
                   </div>
